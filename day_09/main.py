@@ -29,7 +29,7 @@ print(int(a)+int(b))
 # Example of explicit typecasting
 string = "15"
 number = 4
-string_number = int(string)
+string_number = int(string) #typecasting string
 sum = number + string_number
 print("The sum of both the number is : ", sum)
 
