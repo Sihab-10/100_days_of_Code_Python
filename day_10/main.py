@@ -25,3 +25,21 @@ print(type(b))
 b = int(b)
 print("type cast to an int value ", b)
 print(type(b))
+
+# A basic arithmatic operation by two integers
+
+x = input("Enter any number :")
+y = input("Enter another number : ")
+
+print("The addition of these two number is : ",int(x)+int(y))
+
+# যখনি python এর সাহায্যে কোন input নিব তখন অবশ্যই সেটার return হিসেবে যখন কোন কিছু আনবো (সেটা হতে পারে int, float etc) তখন return value হিসেবে যেই data type আনতে চাচ্ছি সেটাতে typecast করে নিব । 
+ 
+print("This is a calculator, Use it for fun.. 😊")
+i = input("Enter your number : ")
+j = input("Enter another number : ")
+k = print("The addition of two number is : ", float(i) + float(j))
+k = print("The Substraction of two number is : ", float(i) - float(j))
+k = print("The Multiplication of two number is : ", float(i) * float(j))
+k = print("The Division of two number is : ", float(i) / float(j))
+k = print("The floor Division of two number is : ", float(i) // float(j))
